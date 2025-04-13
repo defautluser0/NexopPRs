@@ -1,0 +1,98 @@
+<head>
+    <style>
+        body {
+            background: none;
+            user-select: none;
+            -webkit-app-region: drag;
+            display: grid;
+            padding: 0px;
+            margin: 0px;
+            height: 100%;
+        }
+
+        .wrapper {
+            align-self: center;
+            justify-self: center;
+
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 32px;
+            background-color: #222;
+            color: white;
+            font-family: sans-serif;
+
+            width: 256px;
+            height: 256px;
+
+            box-shadow: 0px 16px 32px #0004;
+            padding: 32px;
+            gap: 24px;
+            padding-top: 64px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .loadingBar {
+            background-color: #0f9;
+            display: block;
+            height: 8px;
+            width: 100%;
+            border-radius: 8px;
+            animation: loadingBar 1s infinite ease-in-out;
+        }
+
+        @keyframes loadingBar {
+            0% {
+                width: 0px;
+                opacity: 0;
+            }
+
+            5% {
+                opacity: 0;
+                width: 8px;
+                margin-right: auto;
+            }
+
+            25% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+                width: 100%;
+            }
+
+            75% {
+                opacity: 1;
+            }
+
+            95% {
+                opacity: 0;
+                width: 8px;
+                margin-left: auto;
+            }
+
+            100% {
+                width: 0px;
+                opacity: 0;
+            }
+        }
+
+        img {
+            width: 128px;
+            height: 128px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img draggable="false" src="../nx-icon.svg" alt="nexulien logo" role="presentation" />
+        <span class="loadingBar"></span>
+    </div>
+</body>

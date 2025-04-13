@@ -18,7 +18,7 @@ export function createSplashWindow(startMinimized = false) {
         show: !startMinimized
     });
 
-    splash.loadFile(join(VIEW_DIR, "splash.html"));
+    splash.loadFile(join(VIEW_DIR, "nx-splash.html"));
 
     const { splashBackground, splashColor, splashTheming } = Settings.store;
 
