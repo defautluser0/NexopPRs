@@ -1,5 +1,5 @@
 {
-    "name": "vesktop",
+    "name": "nexop",
     "version": "1.5.6",
     "private": true,
     "description": "Vesktop is a custom Discord desktop app",
@@ -63,8 +63,8 @@
         "pnpm": ">=8"
     },
     "build": {
-        "appId": "dev.vencord.vesktop",
-        "productName": "Vesktop",
+        "appId": "dev.nexulien.nexop",
+        "productName": "Nexop",
         "files": [
             "!*",
             "!node_modules",
