@@ -4,9 +4,9 @@
     "private": true,
     "description": "Vesktop is a custom Discord desktop app",
     "keywords": [],
-    "homepage": "https://vencord.dev/",
+    "homepage": "https://nexulien.github.io/",
     "license": "GPL-3.0-or-later",
-    "author": "Vendicated <vendicated@riseup.net>",
+    "author": "JaegerwaldDev <jaegerwald.dev@gmail.com>",
     "main": "dist/js/main.js",
     "scripts": {
         "build": "tsx scripts/build/build.mts",
@@ -83,7 +83,7 @@
         "linux": {
             "icon": "build/icon.icns",
             "category": "Network",
-            "maintainer": "vendicated+vesktop@riseup.net",
+            "maintainer": "jaegerwald.dev+nexop@gmail.com",
             "target": [
                 {
                     "target": "deb",
@@ -116,11 +116,11 @@
             ],
             "desktop": {
                 "entry": {
-                    "Name": "Vesktop",
+                    "Name": "Nexop",
                     "GenericName": "Internet Messenger",
                     "Type": "Application",
                     "Categories": "Network;InstantMessaging;Chat;",
-                    "Keywords": "discord;vencord;electron;chat;",
+                    "Keywords": "discord;vencord;nexulien;electron;chat;",
                     "MimeType": "x-scheme-handler/discord"
                 }
             }
